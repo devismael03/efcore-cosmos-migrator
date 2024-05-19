@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <UserSecretsId>045213c3-5961-4e00-a33a-24c514391190</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	  <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.38.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="8.0.1" />
+	  <PackageReference Include="EFCore.NamingConventions" Version="8.0.3" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@EfCoreCosmosMigrationEngine_HostAddress = http://localhost:5128
+
+GET {{EfCoreCosmosMigrationEngine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
